@@ -1,0 +1,356 @@
+table {
+    max-width: 80%;
+    margin: 50px auto;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: clamp(1em, 1vw, 1.5em);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+thead {
+    height: 75px;
+    background: #024059e5;
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+thead tr th {
+    border-radius: 5px;
+}
+
+thead tr th:nth-child(1),
+tr td:nth-child(1),
+thead tr th:nth-child(6),
+tr td:nth-child(6),
+thead tr th:nth-child(7),
+tr td:nth-child(7) {
+    max-width: 5.5em;
+}
+
+tr td:nth-child(4) img{
+    max-width: 7vw;
+}
+
+
+
+tr td {
+    border-radius: 5px;
+    width: 300px;
+    max-height: 200px;
+    flex-flow: row wrap;
+    padding: 0 20px;
+    background-color: #2e2e2e59;
+    padding: 15px;
+}
+
+tr td:nth-child(5) a {
+    color: #ffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+tr td:nth-child(5) a:hover {
+    color:#05F2DB;
+}
+
+
+table a img {
+    max-width: 1.7rem;
+    padding: 10px 0;
+}
+
+
+
+.palavra {
+    max-width: 90%;
+    margin: 50px auto;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.palavra h1 {
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-size: 2em;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.palavra form {
+    width: 55%;
+    background: #024059e5;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px 60px;
+}
+
+.palavra form .input-group {
+    position: relative;
+}
+
+.palavra form .input-group input {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+    border: 1.3px solid #fff;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    outline: none;
+}
+
+.palavra form .input-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 2.4em;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: .3s;
+}
+
+/* O + q tava dando problema*/
+.palavra form .input-group input:focus+label,
+.palavra form .input-group input:valid+label {
+    transform: translate(1.7em, -22px) scale(1);
+    color: #ffffff;
+    background: #104B63;
+    left: 1em;
+    font-size: 17px;
+    padding: 2px 15px;
+}
+
+
+
+
+
+.new-button {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: rgb(6, 91, 114);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.767);
+    font-size: 19px;
+    color: #fff;
+}
+
+.new-button:hover {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #024868;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.767);
+    transition: all 0.2s ease-in;
+    font-size: 19px;
+    color: #fff;
+}
+
+
+.button-wrap input[type="file"] {
+    position: absolute;
+    z-index: -1;
+    top: 6px;
+    left: 0;
+    font-size: 15px;
+    color: rgb(153, 153, 153);
+}
+
+.button-wrap {
+    position: relative;
+}
+
+
+.palavra form input[type="submit"] {
+    position: relative;
+    margin-top: 0px;
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    background: #085574;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.397);
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 20px 30px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.palavra form input[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: #0cbcc9;
+    box-shadow: 0 0 10px #058a94, 0 0 20px #0d9ea3, 0 0 30px #00f7ff;
+}
+
+
+.custom-shape-divider-top-1666199524 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 110px;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1666199524 svg {
+    position: relative;
+    display: auto;
+    width: calc(100% + 1px);
+    height: 10em;
+}
+
+.custom-shape-divider-top-1666199524 .shape-fill {
+    fill: #024059;
+}
+
+
+.alterar_palavra h1 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    z-index: 1;
+    color: #05F2DB;
+    font-family: 'Kanit';
+    font-size: 2em;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.alterar_palavra h3:nth-child(2) {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-style: italic;
+    z-index: 1;
+    font-size: 2.2em;
+    color: #ffffff;
+    font-family: 'Kanit';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid;
+    border-image: linear-gradient(160deg, rgba(60, 74, 83, 0), #00f7ff, rgba(60, 74, 83, 0)) 1;
+    background: linear-gradient(105deg, rgba(2, 0, 36, 0) 20%, rgba(9, 117, 121, 0.486) 50%, rgba(0, 213, 255, 0) 80%);
+
+}
+
+.alteracao {
+    padding-top: 50px;
+    margin-top: -2em;
+    border: none;
+}
+
+.alterar_palavra {
+    border-top: 2px solid;
+    border-image: linear-gradient(120deg, rgba(60, 74, 83, 0), #00f7ff, rgba(60, 74, 83, 0)) 1;
+}
+
+.alterar_palavra form {
+    width: 90%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+
+.alterar_palavra form .alteracao {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.alterar_palavra form div,
+.alterar_palavra form div input {
+    text-align: center;
+}
+
+.alterar_palavra form div.alteracao div {
+    margin: 20px 10px;
+    width: 35%;
+    padding: 25px;
+    background: linear-gradient(170deg, rgba(12, 247, 255, 0.11) 0%, rgba(0, 81, 95, 0.137) 50%, rgba(100, 247, 240, 0.13) 100%);
+    border: 2px solid;
+    border-image: linear-gradient(120deg, rgba(60, 74, 83, 0), rgba(0, 126, 126, 0.822), rgba(60, 74, 83, 0)) 1;
+}
+
+.alterar_palavra form div.alteracao div h3 {
+    color: #002c41;
+    font-family: 'Kanit';
+    font-size: 1.7em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: auto;
+    margin: auto;
+}
+
+.alterar_palavra form div input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    background: transparent;
+}
+
+.alterar_palavra form div input::placeholder {
+    color: rgba(255, 255, 255, 0.624);
+}
+
+.alterar_palavra form input[type="submit"] {
+    width: 10em;
+    height: 3em;
+    margin: 2% auto 4%;
+    font-size: 1.2em;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #003c44, #098191, #0ac5b6, #003544);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.658);
+    background-size: 300% 150%;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.alterar_palavra form input[type="submit"]:hover {
+    background-position: 100% 20%;
+    transition: all .3s ease-in-out;
+}
+
+
+@media (max-width: 1000px) {
+
+    .alterar_palavra form div.alteracao div {
+        width: 50%;
+    }
+
+}
