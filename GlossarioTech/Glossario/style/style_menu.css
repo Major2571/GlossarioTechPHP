@@ -4,7 +4,7 @@ header section.top-nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color:  #024059;
+    background-color:  #FC9272;
     color: #FFF;
     font-family: 'Kanit';
     padding: 0 2em;
@@ -12,7 +12,7 @@ header section.top-nav {
     font-size: 1.4em;
 
     border-bottom: 2px solid;
-    border-image: linear-gradient(120deg, rgba(60, 74, 83, 0), #00f7ff, rgba(60, 74, 83, 0)) 1;
+    border-image: linear-gradient(120deg, rgba(60, 74, 83, 0), #f46f03, rgba(60, 74, 83, 0)) 1;
     
 }
 
@@ -42,11 +42,6 @@ header section.top-nav div a img {
     text-decoration: none;
     position: relative;
 }
-
-/* .menu li a:hover {
-    color: #ffffff;
-    text-shadow: 0 0 5px rgb(1, 180, 171), 0 0 7px rgb(1, 180, 171);
-} */
 
 .menu li a::before {
     content: '';
@@ -120,7 +115,7 @@ header section.top-nav div a img {
 
 @media (max-width: 900px) {
     header section.top-nav div img {
-        max-width: 30vw;
+        max-width: 30vw !important;
         padding: 5%;
     }
 
@@ -131,7 +126,7 @@ header section.top-nav div a img {
     .menu {
         position: absolute;
         top: 0;
-        margin-top: 67px;
+        margin-top: 100px;
         /* margem de quando o quadrinho desce*/
         left: 0;
         flex-direction: column;
@@ -162,13 +157,13 @@ header section.top-nav div a img {
         padding: 0.5em 0;
         width: 100%;
         color: white;
-        background-color: #003544;
+        background-color: #af3700;
         cursor: pointer;
     }
 
     .menu>li:hover {
         color: white;
-        background-color: #042d38;
+        background-color: #832900;
         transition: all 0.2s ease-in;
     }
 

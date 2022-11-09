@@ -2,15 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 body {
-    /* background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(16, 216, 219) 0.1%, rgb(14, 131, 163) 94.2%); */
-    background-color: #0240596e;
+    background-color: #fc927262;
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
 
 footer {
-    background-color:  #024059;
+    background-color: #fc7e58;
     height: 100px;
     width: 100%;
     display: flex;
@@ -25,7 +24,7 @@ footer {
     font-size: 1.2rem;
 
     border-top: 2px solid;
-    border-image: linear-gradient(120deg, rgba(60, 74, 83, 0), #00f7ff, rgba(60, 74, 83, 0)) 1;
+    border-image: linear-gradient(120deg, rgba(60, 74, 83, 0), #f46f03, rgba(60, 74, 83, 0)) 1;
 }
 
 
@@ -44,6 +43,6 @@ body::-webkit-scrollbar-thumb {
 
 
 *::selection {
-    color: #04d1bd;
-    background-color: #002435;
+    color: #ff712f;
+    background-color: #351a00;
 }

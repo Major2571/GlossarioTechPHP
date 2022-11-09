@@ -54,7 +54,7 @@
     height: 100%;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
-    background: #024059e5;
+    background: #222223ab;
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
@@ -64,7 +64,7 @@
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
-    text-shadow: rgb(2, 119, 113) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, #FFF 0px 0px 15px, #03e9f4 0px 0px 20px, #03e9f4 0px 0px 40px, #03e9f4 0px 0px 50px;
+    text-shadow: rgb(248, 104, 8) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, #FFF 0px 0px 15px, #ff5100 0px 0px 20px, #ff5100 0px 0px 40px, #ff5100 0px 0px 50px;
     font-size: 2em;
     text-align: center;
 }
@@ -114,7 +114,7 @@
 .login-box form .user-box input:valid~label {
     top: -25px;
     left: 0;
-    color: #03e9f4;
+    color: #ff5100;
     font-size: 15px;
 }
 
@@ -123,7 +123,7 @@
     position: relative;
     display: inline-block;
     border: none;
-    color: #03e9f4;
+    color: #ff5100;
     font-size: 15px;
     padding: 10px 20px;
     text-decoration: none;
@@ -145,7 +145,7 @@
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    color: #03e9f4;
+    color: #ff5100;
     font-size: 16px;
     text-decoration: none;
     text-transform: uppercase;
@@ -156,12 +156,12 @@
 }
 
 .login-box a:hover {
-    background: #03e9f4;
+    background: #ff5100;
     color: #fff;
-    box-shadow: 0 0 5px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 100px #03e9f4;
+    box-shadow: 0 0 5px #ff5100,
+        0 0 25px #ff5100,
+        0 0 50px #ff5100,
+        0 0 100px #ff5100;
 }
 
 .login-box a span {
@@ -174,7 +174,7 @@
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, #03e9f4);
+    background: linear-gradient(90deg, transparent, #ff5100);
     animation: btn-anim1 1s linear infinite;
 }
 
@@ -184,7 +184,7 @@
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, #03e9f4);
+    background: linear-gradient(180deg, transparent, #ff5100);
     animation: btn-anim2 1s linear infinite;
     animation-delay: .25s
 }
@@ -194,7 +194,7 @@
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, #03e9f4);
+    background: linear-gradient(270deg, transparent, #ff5100);
     animation: btn-anim3 1s linear infinite;
     animation-delay: .5s
 }
@@ -205,7 +205,7 @@
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, #03e9f4);
+    background: linear-gradient(360deg, transparent, #ff5100);
     animation: btn-anim4 1s linear infinite;
     animation-delay: .75s
 }

@@ -31,7 +31,19 @@
             <img src="img/palavras.svg" alt="">
         </div>
         <div>
-            <h1> Total de Palavras: </h1>
+            <h1> Total de Palavras:
+                <?php
+                    include("BD_Conexao.php");
+
+                        $stmt = $pdo->prepare("select count(palavra) from tbPalavra");
+
+                        $stmt->execute();
+
+                        while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
+                            echo "</br>$row[0]";
+                        }
+                ?>
+            </h1>
         </div>
     </div>
 
@@ -40,7 +52,20 @@
             <img src="img/usuarios.svg" alt="">
         </div>
         <div>
-            <h1> Total de Usuários: </h1>
+            <h1> Total de Usuários: 
+            <?php
+                include("BD_Conexao.php");
+
+                    $stmt = $pdo->prepare("select count(usuario) from tbUsuario");
+                    $stmt->execute();
+
+                    while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
+                        echo "</br>$row[0]";
+                    }
+
+                ?>
+            </h1>
+            
         </div>
     </div>
 </section>

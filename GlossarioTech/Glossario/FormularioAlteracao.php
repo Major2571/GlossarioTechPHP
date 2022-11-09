@@ -7,11 +7,6 @@
             
         </div>
         <h3> <?php echo @$_GET['alterarPalavra'] ?> </h3>
-        <div class="custom-shape-divider-top-1666199524">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
-            </svg>
-        </div>
 
         <form action="Action_Alteracao.php" method="post">
             <div class="alteracao">

@@ -1,6 +1,6 @@
 section.principal {
     padding: 2% 10%;
-    background-color: #1add0000;
+    background-color: #dd510000;
 
 }
 
@@ -24,7 +24,7 @@ section.principal div.top div:first-child {
 }
 
 section.principal div.top div:first-child h1 {
-    color: #05F2DB;
+    color: #a13807;
     font-family: 'Kanit';
     font-size: 2em;
     font-style: normal;
@@ -46,9 +46,7 @@ section.total {
     align-items: center;
     align-content: center;
     flex-flow: row wrap;
-
     padding: 5%;
-
     background-color: #f7f2f2;
     border-top: none;
 }
@@ -56,13 +54,14 @@ section.total {
 section.total div.total_card {
     width: 30%;
     height: auto;
+    margin: 5% 0;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5%;
+    padding: 5% 5% 2%;
     border: 3px solid;
-    border-image: linear-gradient(120deg, rgba(90, 124, 145, 0), #05888d, rgba(60, 74, 83, 0)) 1;
-    background-color: #0240593a;
+    border-image: linear-gradient(120deg, rgba(90, 124, 145, 0), #f46f03, rgba(60, 74, 83, 0)) 1;
+    background-color: #ff975b3a;
 }
 
 section.total div.total_card div:nth-child(1) {
@@ -72,7 +71,7 @@ section.total div.total_card div:nth-child(1) {
 
 section.total div.total_card div:nth-child(2) {
     margin-top: -1.6em;
-    color: #016164;
+    color: #a13807;
     font-family: 'Kanit';
     font-size: 1.5em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -125,5 +124,26 @@ section.total div.total_card div img {
         vertical-align: middle;
         display: inline-block;
         margin-top: -1.2em;
+    }
+
+    section.total div.total_card {
+        width: 70%;
+        height: auto;
+        margin:7% 2%;
+    }
+}
+
+@media (max-width: 500px) {
+    section.total div.total_card div img {
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: -1.2em;
+        max-width: 7em;
+    }
+
+    section.total div.total_card {
+        width: 70%;
+        height: auto;
+        margin: 15.5% 2%;
     }
 }

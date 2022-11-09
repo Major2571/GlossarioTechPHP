@@ -1,0 +1,38 @@
+.grupo {
+    margin: auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 2% 5% 7%;
+    background-color: #f7f2f2;
+    font-size: 1.2em;
+}
+
+.grupo div h1:nth-child(1) {
+    color: #a13807;
+    font-family: 'Kanit';
+    font-size: 2em;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_grupo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.card_grupo div {
+    margin: 10px;
+    width: 30%;
+    background-color: rgb(215, 243, 250);
+    border-radius: 5px;
+}
+
+.card_grupo img {
+    max-width: 50px;
+    margin: 0 auto 20px;
+}
