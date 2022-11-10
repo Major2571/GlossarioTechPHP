@@ -28,16 +28,16 @@
         <h1> Nosso Grupo </h1>
         <div class="card_grupo">
             <div>
-                <h2>Nome1</h2>
-                <a href="#"><img src="img/github.png" alt=""></a>
+                <h2>Caroline Moura Tacats</h2>
+                <a href="https://github.com/Major2571" target="blank"><img src="img/github.png" alt=""></a>
             </div>
             <div>
-                <h2>Nome2</h2>
-                <a href="#"><img src="img/github.png" alt=""></a>
+                <h2>Daniel Baldez</h2>
+                <a href="https://github.com/Baldez27" target="blank"><img src="img/github.png" alt=""></a>
             </div>
             <div>
-                <h2>Nome3</h2>
-                <a href="#"><img src="img/github.png" alt=""></a>
+                <h2>Renan Kaique Fontes Ferreira</h2>
+                <a href="https://github.com/RenanFerreira02" target="blank"><img src="img/github.png" alt=""></a>
             </div>
             
         </div>

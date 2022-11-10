@@ -54,9 +54,9 @@
     height: 100%;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 2px;
-    background: #222223ab;
+    background: #fc9272a4;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    box-shadow: 0 15px 25px rgba(77, 68, 68, 0.308);
     border-radius: 10px;
 }
 
@@ -64,7 +64,7 @@
     margin: 0 0 30px;
     padding: 0;
     color: #fff;
-    text-shadow: rgb(248, 104, 8) 0px 0px 5px, rgb(255, 255, 255) 0px 0px 10px, #FFF 0px 0px 15px, #ff5100 0px 0px 20px, #ff5100 0px 0px 40px, #ff5100 0px 0px 50px;
+    text-shadow: rgb(248, 104, 8) 0px 0px 5px, rgba(255, 255, 255, 0) 0px 0px 10px, #FFF 0px 0px 15px, #ff5100 0px 0px 20px, #ff5100 0px 0px 40px, #ff5100 0px 0px 50px;
     font-size: 2em;
     text-align: center;
 }

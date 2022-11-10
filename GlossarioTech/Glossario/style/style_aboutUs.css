@@ -8,9 +8,9 @@
 }
 
 .grupo div h1:nth-child(1) {
-    color: #a13807;
+    color: #ff531e;
     font-family: 'Kanit';
-    font-size: 2em;
+    font-size: 2.2em;
     font-style: normal;
     line-height: 1em;
     letter-spacing: 0.05em;
@@ -21,15 +21,18 @@
 .card_grupo {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
 }
 
 .card_grupo div {
     margin: 10px;
     width: 30%;
-    background-color: rgb(215, 243, 250);
-    border-radius: 5px;
+    padding: 12px;
+    color: #c0380e;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    background-color: #ff975b3a;
+    border: 3px solid;
+    border-image: linear-gradient(120deg, rgba(90, 124, 145, 0), #f46f03, rgba(60, 74, 83, 0))1;
 }
 
 .card_grupo img {

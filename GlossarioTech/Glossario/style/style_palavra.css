@@ -10,7 +10,7 @@ table {
 
 thead {
     height: 75px;
-    background: #e26c35;
+    background: #ff5b2a;
     font-size: 1.2em;
     color: #ffffff;
     font-family: 'Kanit';
@@ -110,8 +110,8 @@ table a img {
 
 .palavra form {
     width: 55%;
-    background: #f89e74;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    background: #fc9272a4;
+    box-shadow: 0 15px 25px rgba(77, 68, 68, 0.308);
     box-sizing: border-box;
     margin: auto;
     align-items: center;
