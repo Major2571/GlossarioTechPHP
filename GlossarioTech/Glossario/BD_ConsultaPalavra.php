@@ -44,7 +44,7 @@
                             "<td>" . $row['palavra'] . "</td>" .
                             "<td>" . $row['descricao'] . "</td>" .
                             "<td>" . "<img src=' img/imgPalavras/$row[imagem]'>" . "</td>" .
-                            "<td><a href='$row[4]'>Saiba Mais</a></td>" .
+                            "<td><a href='$row[4]' target='blank' >Saiba Mais</a></td>" .
                             "<td> <a href='Action_ExcluirPalavra.php?id=" . $row['idPalavra'] .  "'><img src='img/trash.svg'> </a> </td>" .
                             "<td> <a href='FormularioAlteracao.php?alterarId=" . $row['idPalavra'] . 
                                 "&alterarPalavra=" . $row['palavra'] .

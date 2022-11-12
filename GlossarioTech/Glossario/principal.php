@@ -8,7 +8,7 @@
 
         <div>
             <h1> Glossary Tech</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit ratione rerum id, earum rem eveniet veritatis. Non quo officia, saepe a dolores hic mollitia quod aliquam, commodi, dolorem deleniti.</p>
+            <p>GlossaryTech é um site destinado a informar palavras, expressões e termos voltados a área da Tecnologia. Com o intuito de simplificar e exemplificar termos presentes no nosso cotidiano, na Era da Tecnologia </p>
         </div>
 
         <div>
@@ -27,22 +27,26 @@
 
 <section class="total">
     <div class="total_card">
+
+        <?php
+            include("BD_Conexao.php");
+
+            $sql = "SELECT COUNT(*) FROM tbPalavra";
+            $res = $pdo->query($sql);
+            $totalPalavra = $res->fetchColumn();
+
+        
+            $sql2 = "SELECT COUNT(*) FROM tbUsuario";
+            $res2 = $pdo->query($sql2);
+            $totalUsuario = $res2->fetchColumn();
+
+        
+        ?>
         <div>
             <img src="img/palavras.svg" alt="">
         </div>
         <div>
-            <h1> Total de Palavras:
-                <?php
-                    include("BD_Conexao.php");
-
-                        $stmt = $pdo->prepare("select count(palavra) from tbPalavra");
-
-                        $stmt->execute();
-
-                        while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
-                            echo "</br>$row[0]";
-                        }
-                ?>
+            <h1> Total de Palavras: <br> <?php echo "$totalPalavra"; ?>
             </h1>
         </div>
     </div>
@@ -52,18 +56,7 @@
             <img src="img/usuarios.svg" alt="">
         </div>
         <div>
-            <h1> Total de Usuários: 
-            <?php
-                include("BD_Conexao.php");
-
-                    $stmt = $pdo->prepare("select count(usuario) from tbUsuario");
-                    $stmt->execute();
-
-                    while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
-                        echo "</br>$row[0]";
-                    }
-
-                ?>
+            <h1> Total de Usuários: <br> <?php echo "$totalUsuario"; ?>
             </h1>
             
         </div>

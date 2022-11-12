@@ -6,7 +6,13 @@
 
         <div>
             <h1> Sobre o Trabalho </h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore fugit ratione rerum id, earum rem eveniet veritatis. Non quo officia, saepe a dolores hic mollitia quod aliquam, commodi, dolorem deleniti.</p>
+            <p>
+                GlossaryTech, projeto desenvolvido nas aulas de Programação Web II, sob orientação dos Professores Allan Vidal e Juarez Brandão. 
+                Sua proposta envolveu a criação de um Glossário voltado para termos do mundo da Tecnologia. Com o obejtivo de aprimorar os conhecimentos passados/adquiridos em aula. 
+            </p>
+            <p>
+                <strong> Tecnologias usadas:  </strong> PHP, MySQL, HTML e CSS.
+            </p>
         </div>
 
         <div>
@@ -32,7 +38,7 @@
                 <a href="https://github.com/Major2571" target="blank"><img src="img/github.png" alt=""></a>
             </div>
             <div>
-                <h2>Daniel Baldez</h2>
+                <h2>Daniel Baldez Chagas</h2>
                 <a href="https://github.com/Baldez27" target="blank"><img src="img/github.png" alt=""></a>
             </div>
             <div>
