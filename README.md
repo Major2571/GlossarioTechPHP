@@ -8,5 +8,7 @@ Sua proposta envolveu a criação de um Glossário voltado para termos do mundo 
 
 ### 💻 Tecnologias usadas:
 
-![HTML5](https://img.shields.io/badge/html5-0D1117.svg?logo=html5&logoColor=E34F26&labelColor=0D1117&style=for-the-badge) ![CSS3](https://img.shields.io/badge/css3-0D1117.svg?logo=css3&logoColor=1572B6&labelColor=0D1117&style=for-the-badge&) ![PHP](https://img.shields.io/badge/php-0D1117.svg?logo=php&logoColor=777BB4&labelColor=0D1117&style=for-the-badge)
+![HTML5](https://img.shields.io/badge/html5-0D1117.svg?logo=html5&logoColor=E34F26&labelColor=0D1117&style=for-the-badge) 
+![CSS3](https://img.shields.io/badge/css3-0D1117.svg?logo=css3&logoColor=1572B6&labelColor=0D1117&style=for-the-badge&) 
+![PHP](https://img.shields.io/badge/php-0D1117.svg?logo=php&logoColor=777BB4&labelColor=0D1117&style=for-the-badge)
 ![MySQL](https://img.shields.io/badge/mysql-0D1117.svg?style=for-the-badge&logo=mysql&logoColor=white&labelColor=0D1117)
