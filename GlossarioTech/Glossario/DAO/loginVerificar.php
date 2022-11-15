@@ -26,12 +26,12 @@
 
     if( $username == $usernameBD && $senha == $senhaBD ){
         $_SESSION['autorizacao'] = true;
-        header('Location: loginAutorizado.php');
+        header('Location: ../loginAutorizado.php');
     } else {
         $_SESSION['autorizacao'] = false;
         unset($_SESSION['autorizacao']);
         session_destroy();
-        header('Location: login.php');
+        header('Location: ../login.php');
     }
 
 

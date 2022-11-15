@@ -1,50 +1,41 @@
-<?php include("templates/head.php"); ?>
+<?php 
 
-<section>
-    <div class="palavra">
-        <h1>Cadastre sua Palavra Abaixo:</h1>
-        <form method="post" action="Action_InserirPalavra.php">
+    include("./templates/head.php"); 
+    include("DAO/loginVerificarSessao.php"); 
 
-            <div class="input-group">
-                <input type="text" name="txPalavra" required="">
-                <label> Palavra </label>
-            </div>
+?>
 
-            <div class="input-group">
-                <input type="text" name="txDescricao" required="">
-                <label> Descrição </label>
-            </div>
+<div class="opcoes">
+    <h1> O que deseja fazer? </h1>
+</div>
+    
+    
+<section class="cards-login">
 
-            <div class="input-group">
-                <input type="text" name="Img" required="">
-                <label> Imagem </label>
-            </div>
+<div class="card-login">
+    <h1> Editar / Excluir Palavras Cadastradas </h1>
+    <p> Edite informações da Palavra, ou, as Exclua.</p>
+    <a href="BD_ConsultaPalavra.php" target="blank"> Clique aqui </a>
+</div>
 
-            <div class="input-group">
-                <input type="text" name="txLink" required="">
-                <label> Link </label>
-            </div>
+<div class="card-login">
+    <h1> Cadastrar Palavra </h1>
+    <p> Cadastre uma Palavra que ainda não exista na nossa Lista. </p>
+    <a href="cadastrarPalavra.php" target="blank"> Clique aqui </a>
+</div>
 
-            <!-- <div class="button-wrap">
-                <label class="new-button"> Escolha uma Imagem
-                    <input type="text" name="Img">
-            </div> -->
+<div class="card-login">
+    <h1> Usuarios </h1>
+    <p> Administre os Ususarios do Sistema </p>
+    <a href="listaUsuarios.php" target="blank"> Clique aqui </a>
+</div>
 
-            <div>
-                <input type="submit">
-            </div>
-        </form>
 </section>
 
-
-
-<div>
-    <a href="logout.php">
-        <button>
-            LOGOUT
-        </button>
-    </a>
+<div class="sair">
+    <a href="DAO/logout.php"> Sair </a>
 </div>
 
 
-<?php include("templates/footer.php"); ?>
+
+<?php include("./templates/footer.php"); ?>

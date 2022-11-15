@@ -25,33 +25,33 @@ thead tr th {
     border-radius: 5px;
 }
 
-/* "Tratamento" das coluna da tabela*/
 
-thead tr th:first-child,
-tr td:first-child {
+/* "Tratamento" das coluna da tabela*/
+.consultaPalavra table thead tr th:first-child,
+.consultaPalavra table tbody tr td:first-child {
     display: none;
 }
 
-thead tr th:nth-child(2),
-tr td:nth-child(2) {
+.consultaPalavra thead tr th:nth-child(2),
+.consultaPalavra tr td:nth-child(2) {
     width: 10%;
 }
 
-thead tr th:nth-child(3),
-tr td:nth-child(3) {
+.consultaPalavra thead tr th:nth-child(3),
+.consultaPalavra tr td:nth-child(3) {
     width: 45%;
 }
 
 
-thead tr th:nth-child(5),
-tr td:nth-child(5) {
+.consultaPalavra thead tr th:nth-child(5),
+.consultaPalavra tr td:nth-child(5) {
     max-width: 20%;
 }
 
-thead tr th:nth-child(6),
-tr td:nth-child(6),
-thead tr th:nth-child(7),
-tr td:nth-child(7) {
+.consultaPalavra thead tr th:nth-child(6),
+.consultaPalavra tr td:nth-child(6),
+.consultaPalavra thead tr th:nth-child(7),
+.consultaPalavra tr td:nth-child(7) {
     max-width: 5.5em;
 }
 
@@ -89,7 +89,7 @@ table a img {
 
 
 .palavra {
-    max-width: 90%;
+    max-width: 80%;
     margin: 50px auto;
     padding: 10px;
     align-items: center;
@@ -97,8 +97,9 @@ table a img {
     text-align: center;
 }
 
-.palavra h1 {
+.palavra form h1 {
     color: #ffffff;
+    margin-bottom: 60px;
     font-family: 'Kanit';
     font-size: 2em;
     font-style: normal;
@@ -110,7 +111,7 @@ table a img {
 
 .palavra form {
     width: 55%;
-    background: #fc9272a4;
+    background: #fca78d;
     box-shadow: 0 15px 25px rgba(77, 68, 68, 0.308);
     box-sizing: border-box;
     margin: auto;
@@ -153,9 +154,9 @@ table a img {
 .palavra form .input-group input:valid+label {
     transform: translate(1.7em, -22px) scale(1);
     color: #ffffff;
-    background: #f89e74;
-    left: 1em;
-    font-size: 17px;
+    background: #fca78d;
+    left: 0.2em;
+    font-size: 18px;
     padding: 2px 15px;
 }
 

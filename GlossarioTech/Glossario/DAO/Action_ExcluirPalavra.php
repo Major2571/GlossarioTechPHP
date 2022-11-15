@@ -12,7 +12,7 @@ include("BD_Conexao.php");
 
         $pdo = null;
 
-        header("Location:BD_ConsultaPalavra.php"); // nosso arquivo de retorno -> quando excluimos, ele irá atualizar nossa tabela
+        header("Location: ../BD_ConsultaPalavra.php");
 
     }
     catch (PDOException $e) {

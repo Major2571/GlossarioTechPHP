@@ -13,7 +13,7 @@
             $stmt = $pdo->prepare(" UPDATE `tbpalavra` SET `palavra` = '$alterarPalavra', descricao = '$alterarDescricao', imagem = '$alterarImg', link = '$alterarLink' WHERE `tbpalavra`.`idPalavra` = '$alterarID'");
             $stmt->execute();
 
-            header("Location:BD_ConsultaPalavra.php");
+            header("Location:../BD_ConsultaPalavra.php");
 
         }
 

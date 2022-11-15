@@ -23,7 +23,7 @@ section.principal div.top div:first-child {
     font-size: 1.5em;
 }
 
-section.principal div.top div:first-child h1 {
+section.principal div.top div:first-child h1{
     color: #ff531e;
     font-family: 'Kanit';
     font-size: 2em;
@@ -109,8 +109,63 @@ section.total div.total_card div img {
 
 
 
+section.search {
+    width: 35%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+section.search h1{
+    margin-top: 2em ;
+    color: #fd470f;
+    font-family: 'Kanit';
+    font-size: 2.5em;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 3px 3px rgba(68, 68, 68, 0.25);
+}
+
+section.search form {
+    display: flex;
+    justify-content: baseline;
+}
+
+section.search form button {
+    background-color: #ec550f;
+    box-shadow: 2px 2px 5px rgba(77, 68, 68, 0.308);
+    border: none;
+    width: 60px;
+    max-height: 50.5px;
+    padding: 12px;
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+}
+
+section.search form button img {
+    width: 70%;
+}
+
+section.search input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 40px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    /* border-bottom: 1px solid rgb(255, 123, 0); */
+    outline: none;
+    background-color: #ffffff8e;
+    box-shadow: 0 2px 5px rgba(77, 68, 68, 0.308);
+    border-radius: 7px 0 0 7px;
+}
+
+
+
 
 @media (max-width: 1000px) {
+
     section.principal {
         padding: 2% 5%;
     }
@@ -130,6 +185,10 @@ section.total div.total_card div img {
         width: 70%;
         height: auto;
         margin:7% 2%;
+    }
+
+    section.search {
+        width: 50%;
     }
 }
 

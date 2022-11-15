@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 07-Nov-2022 às 19:58
+-- Tempo de geração: 15-Nov-2022 às 23:25
 -- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `tbpalavra` (
   `imagem` varchar(100) DEFAULT NULL,
   `link` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`idPalavra`)
-) ENGINE=MyISAM AUTO_INCREMENT=117 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=125 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `tbpalavra`
@@ -45,7 +45,7 @@ INSERT INTO `tbpalavra` (`idPalavra`, `palavra`, `descricao`, `imagem`, `link`) 
 (27, 'Android', 'Android é um sistema operacional baseado no núcleo Linux, desenvolvido por um consórcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o Google.', 'android', 'android'),
 (28, 'Antivirus', 'Programa de proteção do computador que detecta e elimina os vírus (certos programas danosos) nele existentes, assim como impede sua instalação e propagação.', 'antivirus', 'antivirus'),
 (26, 'Algoritmo', 'Em matemática e ciência da computação, um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema. Segundo Dasgupta, Papadimitriou e Vazirani; \"Algoritmos são procedimentos precisos, não ambíguos, padronizados, eficientes e corretos.\"', 'algoritmo', 'algoritmo'),
-(25, 'Account', 'Uma Account(Conta) é uma identidade criada por uma pessoa para um computador ou um sistema. User Accounts(Conta de Usuário) também podem ser criadas para máquinas e softwares como contas para acessar programas, contas de sistemas de gerenciamento de arquivos e processos, e também contas administradoras para administração de um sistema.', 'account', 'account'),
+(25, 'Account', 'Uma Account(Conta) é uma identidade criada por uma pessoa para um computador ou um sistema. User Accounts(Conta de Usuário) também podem ser criadas para máquinas e softwares como contas para acessar programas, contas de sistemas de gerenciamento de arquivos e processos, e também contas administradoras para administração de um sistema.', 'account', 'account1233'),
 (29, 'API', 'API significa Application Programming Interface (Interface de Programação de Aplicação). No contexto de APIs, a palavra Aplicação refere-se a qualquer software com uma função distinta. A interface pode ser pensada como um contrato de serviço entre duas aplicações.', 'api', 'api'),
 (30, 'APU', 'APU é a Unidade de Processamento Acelerado. É uma tecnologia recente, que substitui a CPU e a GPU convencional. A intenção é colocar a atividade dessas duas peças em um único chip, que ocupa menos espaço.', 'apu', 'apu'),
 (31, 'Arduino', 'O arduino é uma plataforma de prototipagem (processo de criação e fabricação de protótipos), open source (código aberto), criado para que o desenvolvimento de projetos tivesse um preço acessível para qualquer pessoa.', 'arduino', 'arduino'),
@@ -146,16 +146,22 @@ CREATE TABLE IF NOT EXISTS `tbusuario` (
   `idUsuario` int(11) NOT NULL AUTO_INCREMENT,
   `usuario` varchar(40) COLLATE utf8_unicode_ci DEFAULT NULL,
   `senha` varchar(40) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `nome` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
+  `sobrenome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `dataNascimento` date DEFAULT NULL,
   PRIMARY KEY (`idUsuario`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Extraindo dados da tabela `tbusuario`
 --
 
-INSERT INTO `tbusuario` (`idUsuario`, `usuario`, `senha`) VALUES
-(1, 'admin', 'admin'),
-(2, 'maria', '1234');
+INSERT INTO `tbusuario` (`idUsuario`, `usuario`, `senha`, `nome`, `sobrenome`, `email`, `dataNascimento`) VALUES
+(1, 'admin', 'admin', '', '', '', NULL),
+(7, 'Carol123', '12345', 'Carol', 'Souza', 'carol@gmail.com', '2000-10-10'),
+(8, 'aaa', 'aaa', 'aaa', 'aaa', 'aaa', '2000-11-10'),
+(10, 'maria123', '123456', 'Maria', 'abc', 'maria@gmail.com', '1992-08-14');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

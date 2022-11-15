@@ -1,8 +1,8 @@
-<?php include('templates/head.php'); ?>
+<?php include('./templates/head.php'); ?>
+
+<?php include('templates/cabecalhoPesquisa.php'); ?>
 
 <section class="principal">
-
-
 
     <div class="top">
 
@@ -25,11 +25,13 @@
     </svg>
 </div>
 
+
+
 <section class="total">
     <div class="total_card">
 
         <?php
-            include("BD_Conexao.php");
+            include("DAO/BD_Conexao.php");
 
             $sql = "SELECT COUNT(*) FROM tbPalavra";
             $res = $pdo->query($sql);
@@ -63,4 +65,4 @@
     </div>
 </section>
 
-<?php include("templates/footer.php"); ?>
+<?php include("./templates/footer.php"); ?>

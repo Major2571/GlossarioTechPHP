@@ -6,6 +6,7 @@ $link = $_POST['txLink'];
 $img = $_POST['Img'];
 
 include("BD_Conexao.php");
+
     try {
 
         $stmt = $pdo->prepare("insert into tbPalavra values(null, '$palavra', '$desc', '$img', '$link');");
@@ -14,7 +15,7 @@ include("BD_Conexao.php");
 
         $pdo = null;
 
-        header("Location:BD_ConsultaPalavra.php");
+        header("Location: ../BD_ConsultaPalavra.php");
 
     }
     catch (PDOException $e) {

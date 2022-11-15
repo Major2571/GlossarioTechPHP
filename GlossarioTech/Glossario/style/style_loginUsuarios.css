@@ -1,0 +1,127 @@
+.cards-login {
+    max-width: 80%;
+    margin: 2% auto;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cards-login .card-login {
+    width: 25%;
+    height: auto;
+    padding: 40px;
+    background-color: #f5e8da81;
+    box-shadow: 0 4px 10px rgba(36, 34, 34, 0.6);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.cards-login .card-login h1 {
+    margin: 0;
+    font-family: 'Kanit';
+    color: #ff531e;
+    font-size: 1.6em;
+}
+
+.opcoes h1{
+    width: 80%;
+    text-align: center;
+    margin: 5% auto;
+    color: #ff531e;
+    font-family: 'Kanit';
+    font-size: 2.5em;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.cards-login .card-login p {
+    margin-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.cards-login .card-login a {
+    padding: 15px;
+    background-color: #ff531e;
+    box-shadow: 0 2px 5px rgba(56, 56, 56, 0.664);
+    color: #ffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    margin-bottom: 1.5em;
+}
+
+.cards-login .card-login a:hover, .sair a:hover {
+    background-color: #c22603;
+    box-shadow: 0 0 15px rgba(255, 72, 0, 0.664);
+    transition: all 0.3s ease-in;
+}
+
+.sair {
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.sair a {
+    padding: 15px 60px;
+    background-color: #ff531e;
+    box-shadow: 0 2px 5px rgba(56, 56, 56, 0.664);
+    color: #ffff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    font-size: 1.2em;
+}
+
+@media (max-width: 1000px) {
+
+    .cards-login .card-login {
+        width: 40%;
+    }
+
+    .cards-login {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .cards-login .card-login {
+        width: 70%;
+    }
+
+    .cards-login {
+        width: 95%;
+    }
+
+}
+
+
+.usuarios table thead tr th:first-child,
+.usuarios table tbody tr td:first-child{
+    display:table-cell; 
+}
+
+.usuarios table thead tr th:nth-child(2),
+.usuarios table tr td:nth-child(2) {
+    width: 15%;
+}
+
+.usuarios table thead tr th:nth-child(3),
+.usuarios table tr td:nth-child(3) {
+    width: 20%;
+}
+
+.usuarios table thead tr th:nth-child(5),
+.usuarios table tr td:nth-child(5),
+.usuarios table thead tr th:nth-child(4),
+.usuarios table tr td:nth-child(4) {
+    width: 15%;
+}

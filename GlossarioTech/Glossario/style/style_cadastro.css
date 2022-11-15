@@ -1,0 +1,148 @@
+.login-box form .cad {
+    color: #fff;
+}
+.login-box form .cad  a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #ff5100;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.login-box .cad a:hover {
+    background: #ff5100;
+    color: #fff;
+    box-shadow: 0 0 5px #ff5100,
+        0 0 25px #ff5100,
+        0 0 50px #ff5100;
+}
+
+.cadastro {
+    background: #fc9272a4;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(77, 68, 68, 0.308);
+    border-radius: 10px;
+    margin: 1em auto;
+    width: 50%;
+    padding: 2%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.cadastro h1 {
+    margin: 5% auto 7%;
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-size: 2.5em;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cadastro form {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+
+.cadastro form .input-cad-group {
+    position: relative;
+}
+
+.cadastro form .input-cad-group input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.cadastro form .input-cad-group label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.cadastro form .input-cad-group input:focus~label,
+.cadastro form .input-cad-group input:valid~label {
+    top: -25px;
+    left: 0;
+    color: #ff5100;
+    font-size: 18px;
+}
+
+.cadastro form .input-cad-group:nth-child(6) {
+    margin: 15px 0;
+
+}
+
+.cadastro form .input-cad-group:nth-child(6) label{
+    top: -30px;
+}
+
+.cadastro form .input-cad-group:nth-child(6) input:focus~label,
+.cadastro form .input-cad-group:nth-child(6) input:valid~label {
+    top: -30px;
+    left: 0;
+    color: #ff5100;
+    font-size: 20px;
+}
+
+
+
+
+.cadastro .botoes-opcoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botoes-opcoes div input, a button {
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #ff5100;
+    box-shadow: 0 15px 25px rgba(77, 68, 68, 0.308);
+    margin: auto 1em;
+    letter-spacing: 5px;
+    border-radius: 5px;
+}
+
+/* .cadastro form input[type="submit"], .cadastro form a button {
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+    background-color: transparent;
+}
+
+.cadastro form input[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 3px rgba(0, 135, 139, 0.5);
+} */
+
+@media (max-width: 1000px) {
+    .cadastro form {
+        width: 80%;
+    }
+}

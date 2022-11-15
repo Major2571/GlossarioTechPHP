@@ -1,4 +1,4 @@
-<?php include('templates/head.php'); ?>
+<?php include('./templates/head.php'); ?>
 
 <section>
     <div class="alterar_palavra">
@@ -8,7 +8,7 @@
         </div>
         <h3> <?php echo @$_GET['alterarPalavra'] ?> </h3>
 
-        <form action="Action_Alteracao.php" method="post">
+        <form action="DAO/Action_Alteracao.php" method="post">
             <div class="alteracao">
 
                 <div>
@@ -45,4 +45,4 @@
 
 
 
-<?php include("templates/footer.php"); ?>
+<?php include("./templates/footer.php"); ?>

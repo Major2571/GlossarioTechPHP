@@ -1,4 +1,4 @@
-<?php include("templates/head.php"); ?>
+<?php include("./templates/head.php"); ?>
 
 <section class="principal">
 
@@ -16,7 +16,7 @@
         </div>
 
         <div>
-            <img src="img/aboutUs.svg" alt="">
+            <img src="./img/aboutUs.svg" alt="">
         </div>
     </div>
 
@@ -35,15 +35,15 @@
         <div class="card_grupo">
             <div>
                 <h2>Caroline Moura Tacats</h2>
-                <a href="https://github.com/Major2571" target="blank"><img src="img/github.png" alt=""></a>
+                <a href="https://github.com/Major2571" target="blank"><img src="./img/github.png" alt=""></a>
             </div>
             <div>
                 <h2>Daniel Baldez Chagas</h2>
-                <a href="https://github.com/Baldez27" target="blank"><img src="img/github.png" alt=""></a>
+                <a href="https://github.com/Baldez27" target="blank"><img src="./img/github.png" alt=""></a>
             </div>
             <div>
                 <h2>Renan Kaique Fontes Ferreira</h2>
-                <a href="https://github.com/RenanFerreira02" target="blank"><img src="img/github.png" alt=""></a>
+                <a href="https://github.com/RenanFerreira02" target="blank"><img src="./img/github.png" alt=""></a>
             </div>
             
         </div>
@@ -51,4 +51,4 @@
 
 </section>
 
-<?php include("templates/footer.php"); ?>
+<?php include("./templates/footer.php"); ?>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 07-Nov-2022 às 17:36
+-- Tempo de geração: 15-Nov-2022 às 23:25
 -- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `tbpalavra` (
   `imagem` varchar(100) DEFAULT NULL,
   `link` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`idPalavra`)
-) ENGINE=MyISAM AUTO_INCREMENT=117 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=125 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `tbpalavra`
@@ -45,7 +45,7 @@ INSERT INTO `tbpalavra` (`idPalavra`, `palavra`, `descricao`, `imagem`, `link`) 
 (27, 'Android', 'Android é um sistema operacional baseado no núcleo Linux, desenvolvido por um consórcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o Google.', 'android', 'android'),
 (28, 'Antivirus', 'Programa de proteção do computador que detecta e elimina os vírus (certos programas danosos) nele existentes, assim como impede sua instalação e propagação.', 'antivirus', 'antivirus'),
 (26, 'Algoritmo', 'Em matemática e ciência da computação, um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema. Segundo Dasgupta, Papadimitriou e Vazirani; \"Algoritmos são procedimentos precisos, não ambíguos, padronizados, eficientes e corretos.\"', 'algoritmo', 'algoritmo'),
-(25, 'Account', 'Uma Account(Conta) é uma identidade criada por uma pessoa para um computador ou um sistema. User Accounts(Conta de Usuário) também podem ser criadas para máquinas e softwares como contas para acessar programas, contas de sistemas de gerenciamento de arquivos e processos, e também contas administradoras para administração de um sistema.', 'account', 'account'),
+(25, 'Account', 'Uma Account(Conta) é uma identidade criada por uma pessoa para um computador ou um sistema. User Accounts(Conta de Usuário) também podem ser criadas para máquinas e softwares como contas para acessar programas, contas de sistemas de gerenciamento de arquivos e processos, e também contas administradoras para administração de um sistema.', 'account', 'account1233'),
 (29, 'API', 'API significa Application Programming Interface (Interface de Programação de Aplicação). No contexto de APIs, a palavra Aplicação refere-se a qualquer software com uma função distinta. A interface pode ser pensada como um contrato de serviço entre duas aplicações.', 'api', 'api'),
 (30, 'APU', 'APU é a Unidade de Processamento Acelerado. É uma tecnologia recente, que substitui a CPU e a GPU convencional. A intenção é colocar a atividade dessas duas peças em um único chip, que ocupa menos espaço.', 'apu', 'apu'),
 (31, 'Arduino', 'O arduino é uma plataforma de prototipagem (processo de criação e fabricação de protótipos), open source (código aberto), criado para que o desenvolvimento de projetos tivesse um preço acessível para qualquer pessoa.', 'arduino', 'arduino'),
@@ -99,7 +99,7 @@ INSERT INTO `tbpalavra` (`idPalavra`, `palavra`, `descricao`, `imagem`, `link`) 
 (79, 'Mouse', 'É o componente que possibilita ao usuário direcionar o cursor e clicar em locais específicos para executar uma tarefa.', 'mouse', 'mouse'),
 (80, 'Navegador', 'Um navegador (também conhecido como web browser ou simplesmente browser) é um programa que habilita seus usuários a interagirem com documentos HTML hospedados em um servidor Web.', 'navegador', 'navegador'),
 (81, 'NFC', 'A sigla, que em inglês significa Near Field Communication (“comunicação por campo de proximidade”), é uma tecnologia que realiza trocas de informações sem a necessidade de fios entre dois dispositivos, desde que eles estejam próximos', 'nfc', 'nfc'),
-(82, 'Notebook / Laptop', 'Computador completo portátil, espécie de laptop, suas dimensões variam, mas tem como característica ser leve, pequeno e que pode ser levado para vários lugares.', 'notebook / laptop', 'notebook / laptop'),
+(82, 'Notebook / Laptop', 'Computador completo portátil, espécie de laptop, suas dimensões variam, mas tem como característica ser leve, pequeno e que pode ser levado para vários lugares.', 'notebook', 'notebook / laptop'),
 (83, 'Online', 'Conectado. Quando alguém se conecta, está presente naquele exato momento em algum lugar, por exemplo: Facebook, Instagram, etc.', 'online', 'online'),
 (84, 'Open Source', 'Ferramenta open source é aquela que tem seu código aberto, ou seja, que pode ser visualizada por qualquer pessoa. Para explicar melhor, vamos definir o que significa “código” – ou código-fonte – no segmento de tecnologia da informação.', 'open source', 'open source'),
 (85, 'Operador', 'Presta suporte aos usuários em hardware e software, realizando a manutenção de equipamentos de informática e configuração de rede. Atende em campo e remoto a clientes, realizando testes em sistemas desenvolvidos pela empresa e serviços de manutenção (sistemas e hardware).', 'operador', 'operador'),

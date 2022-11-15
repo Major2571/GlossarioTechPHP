@@ -4,7 +4,7 @@
 
 <?php
 
-    include("BD_Conexao.php");
+    include("DAO/BD_Conexao.php");
 
 
     $letter = $_GET['letra'];
@@ -19,7 +19,7 @@
     while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
         
         echo  "<div class='card_palavras'> " .
-                    "<div><img src=' img/imgPalavras/$row[imagem]'></div>" . 
+                    "<div><img src='img/imgPalavras/$row[imagem]'></div>" . 
                     " <div class='card_content'>
                         <h2>" . $row['palavra'] . "</h2>" .
                         "<p>" . $row['descricao'] . "</p>" .

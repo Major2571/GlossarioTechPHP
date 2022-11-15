@@ -1,20 +1,20 @@
-<?php include("templates/head.php"); ?>
+<?php include("./templates/head.php"); ?>
 
 <section class="login-box">
-    <form action="loginVerificar.php" method="post">
+    <form action="DAO/loginVerificar.php" method="post">
         <h2>Login</h2>
 
         <div class="user-box">
             <input type="text" name="txUsuario" required>
-            <label>Username</label>
+            <label>Usuário</label>
         </div>
 
         <div class="user-box">
             <input type="password" name="txSenha" required>
-            <label>Password</label>
+            <label>Senha</label>
         </div>
         <div>
-            <a href="loginVerificar.php">
+            <a href="DAO/loginVerificar.php">
                 <!-- Esses spans são os que vão dar o efeito em cada lado do botão -->
                 <span></span>
                 <span></span>
@@ -25,12 +25,12 @@
         </div>
 
         
+        <div class="cad">
+            <p>Não tem cadastro?</p>
+            <a href="cadastro.php"> Cadastre-se </a>
+        </div>
     </form>
 
-    <div>
-        <p>Não tem cadastro?</p>
-        <a href="cadastro.php"> Cadastre-se </a>
-    </div>
     
     <div class="img_login">
         <img src="./img/login.svg" alt="">
@@ -38,4 +38,4 @@
 </section>
 
 
-<?php include("templates/footer.php"); ?>
+<?php include("./templates/footer.php"); ?>
