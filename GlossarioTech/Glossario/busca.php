@@ -26,7 +26,7 @@
 
             $nome = $_POST['pesquisar'];
 
-            $stmt = $pdo->prepare("select * from tbPalavra where palavra like '%$nome%' or descricao like '%$nome%';");
+            $stmt = $pdo->prepare("select * from tbPalavra where palavra like '%$nome%';");
             $stmt->execute();
 
             while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {

@@ -161,6 +161,33 @@ section.search input{
     border-radius: 7px 0 0 7px;
 }
 
+.voltar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin:0;
+
+}
+
+.voltar button {
+    background-color: #ec550f;
+    margin: 1% 0;
+    box-shadow: 2px 2px 5px rgba(77, 68, 68, 0.308);
+    border: none;
+    width: 8em;
+    max-height: 3em;
+    padding: 12px;
+    border-radius: 0 7px 7px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.voltar button img {
+    width: 25%;
+}
+
+
 
 
 

@@ -1,4 +1,9 @@
 <?php include('templates/head.php'); ?>
+<div class="voltar">
+    <button>
+        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    </button>
+</div>
 
 <section class="search">
     <h1>Pesquise uma Palavra: </h1>

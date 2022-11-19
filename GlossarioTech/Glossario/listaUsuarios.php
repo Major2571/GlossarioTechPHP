@@ -1,5 +1,11 @@
 <?php include('templates/head.php'); ?>
 
+<div class="voltar">
+    <button>
+        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    </button>
+</div>
+
 <section class="search">
     <h1>Pesquise uma Informação: </h1>
     <form class="box-search" action="buscaUsuario.php" method="post">
@@ -7,6 +13,7 @@
         <button>
             <img src="img/lupa.png" alt="">
         </button>
+
     </form>
 </section>
 
@@ -40,13 +47,13 @@
 
                     echo "<tr>
                             <td>" . $row[0] . "</td>" .
-                            "<td>" . $row[1] . "</td>" .
-                            "<td>" . $row[2] . "</td>" .
-                            "<td>" . $row[3] . "</td>" .
-                            "<td>" . $row[4] . "</td>" .
-                            "<td>" . $row[5] . "</td>" .
-                            "<td>" . $row[6] . "</td>" .
-                            "<td> <a href='DAO/Action_ExcluirUsuario.php?id=" . $row['idUsuario'] .  "'><img src='img/trash.svg'> </a> </td>";
+                        "<td>" . $row[1] . "</td>" .
+                        "<td>" . $row[2] . "</td>" .
+                        "<td>" . $row[3] . "</td>" .
+                        "<td>" . $row[4] . "</td>" .
+                        "<td>" . $row[5] . "</td>" .
+                        "<td>" . $row[6] . "</td>" .
+                        "<td> <a href='DAO/Action_ExcluirUsuario.php?id=" . $row['idUsuario'] . "'><img src='img/trash.svg'> </a> </td>";
                 }
             } catch (PDOException $e) {
                 echo "Error: " . $e->getMessage();

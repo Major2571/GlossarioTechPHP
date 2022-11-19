@@ -1,8 +1,15 @@
 <?php include('templates/head.php'); ?>
 
+<div class="voltar">
+    <button>
+        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    </button>
+</div>
+
 <section class="search">
     <h1>Pesquise uma Informação: </h1>
     <form class="box-search" action="buscaUsuario.php" method="post">
+
         <input type="text" placeholder="Pesquisar" name="pesquisar">
         <button>
             <img src="img/lupa.png" alt="">
@@ -41,19 +48,19 @@
             $stmt = $pdo->prepare("select * from tbUsuario where usuario like '%$dado%' or nome like '%$dado%' or sobrenome like '%$dado%' or email like '%$dado%' or dataNascimento like '%$dado%';");
             $stmt->execute();
 
-                while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
+            while ($row = $stmt->fetch(PDO::FETCH_BOTH)) {
 
-                    echo "<tr>
+                echo "<tr>
                             <td>" . $row[0] . "</td>" .
-                            "<td>" . $row[1] . "</td>" .
-                            "<td>" . $row[2] . "</td>" .
-                            "<td>" . $row[3] . "</td>" .
-                            "<td>" . $row[4] . "</td>" .
-                            "<td>" . $row[5] . "</td>" .
-                            "<td>" . $row[6] . "</td>" .
-                            "<td> <a href='DAO/Action_ExcluirUsuario.php?id=" . $row['idUsuario'] .  "'><img src='img/trash.svg'> </a> </td>";
-                }
-            
+                    "<td>" . $row[1] . "</td>" .
+                    "<td>" . $row[2] . "</td>" .
+                    "<td>" . $row[3] . "</td>" .
+                    "<td>" . $row[4] . "</td>" .
+                    "<td>" . $row[5] . "</td>" .
+                    "<td>" . $row[6] . "</td>" .
+                    "<td> <a href='DAO/Action_ExcluirUsuario.php?id=" . $row['idUsuario'] . "'><img src='img/trash.svg'> </a> </td>";
+            }
+
 
 
             ?>

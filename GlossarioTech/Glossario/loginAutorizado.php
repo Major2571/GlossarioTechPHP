@@ -15,19 +15,19 @@
 <div class="card-login">
     <h1> Editar / Excluir Palavras Cadastradas </h1>
     <p> Edite informações da Palavra, ou, as Exclua.</p>
-    <a href="BD_ConsultaPalavra.php" target="blank"> Clique aqui </a>
+    <a href="BD_ConsultaPalavra.php"> Clique aqui </a>
 </div>
 
 <div class="card-login">
     <h1> Cadastrar Palavra </h1>
     <p> Cadastre uma Palavra que ainda não exista na nossa Lista. </p>
-    <a href="cadastrarPalavra.php" target="blank"> Clique aqui </a>
+    <a href="cadastrarPalavra.php"> Clique aqui </a>
 </div>
 
 <div class="card-login">
     <h1> Usuarios </h1>
     <p> Administre os Ususarios do Sistema </p>
-    <a href="listaUsuarios.php" target="blank"> Clique aqui </a>
+    <a href="listaUsuarios.php"> Clique aqui </a>
 </div>
 
 </section>

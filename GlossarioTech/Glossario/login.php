@@ -20,7 +20,7 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                <input type="submit" placeholder="submit" name="sub">
+                <input type="submit" value="Login" name="sub">
             </a>
         </div>
 

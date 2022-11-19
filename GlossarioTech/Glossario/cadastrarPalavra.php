@@ -1,5 +1,11 @@
 <?php include("./templates/head.php"); ?>
 
+<div class="voltar">
+    <button>
+        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    </button>
+</div>
+
 <section>
     <div class="palavra">
         <form method="post" action="DAO/Action_InserirPalavra.php">
@@ -31,8 +37,11 @@
             </div> -->
 
             <div>
-                <input type="submit">
+                <input type="submit" value="salvar">
             </div>
+
+            
+            
         </form>
 </section>
 

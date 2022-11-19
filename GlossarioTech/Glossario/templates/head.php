@@ -25,7 +25,7 @@
     <header>
         <section class="top-nav">
             <div>
-                <a href="principal.php">
+                <a href="index.php">
                     <img src="./img/logo.svg" alt="logo">
                 </a>
             </div>
@@ -34,7 +34,7 @@
                 <div class='menu-button'></div>
             </label>
             <ul class="menu">
-                <li> <a href="./principal.php"> Principal </a> </li>
+                <li> <a href="./index.php"> Principal </a> </li>
                 <li> <a href="./glossario.php"> Glossário </a> </li>
                 <li> <a href="./palavra"> Palavras </a> </li>
                 <li> <a href="./login.php"> Login </a> </li>

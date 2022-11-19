@@ -106,6 +106,36 @@ section.glossario a:hover {
 }
 
 
+ .glossario_PL {
+    max-width: 100%;
+    margin: 0 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #fc927200;
+    padding: 25px 15px 0;
+}
+
+.glossario_PL a {
+    width: 1.5em;
+    padding: 0.8em;
+    border-radius: 5px;
+    font-size: 1.25em;
+    color: rgb(240, 248, 255);
+    text-decoration: none;
+    margin: 5px;
+    background-color: #FC9272;
+    background-size: 300% 150%;
+    transition: all 0.3s ease-in;
+}
+
+.glossario_PL a:hover{
+    background-color: #c22603;
+    transition: all 0.3s ease-in;
+}
+
+
 @media (max-width: 1000px) {
 
     .palavra_letra .card_palavras {
@@ -115,6 +145,16 @@ section.glossario a:hover {
     .palavra_letra {
         width: 90%;
     }
+
+    
+ .glossario_PL {
+    max-width: 90%;
+    margin: 2% auto;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
 
 }
 

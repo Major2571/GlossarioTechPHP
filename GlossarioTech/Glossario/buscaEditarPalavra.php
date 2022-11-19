@@ -1,5 +1,11 @@
 <?php include('templates/head.php'); ?>
 
+<div class="voltar">
+    <button>
+        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    </button>
+</div>
+
 <section class="search">
     <h1>Pesquise uma Palavra: </h1>
     <form class="box-search" action="buscaEditarPalavra.php" method="post">
@@ -49,7 +55,7 @@
                     "<td>" . $row['descricao'] . "</td>" .
                     "<td>" . "<img src=' img/imgPalavras/$row[imagem]'>" . "</td>" .
                     "<td><a href='$row[4]' target='blank' >Saiba Mais</a></td>" .
-                    "<td> <a href='DAO/Action_ExcluirPalavra.php?id=" . $row['idPalavra'] .  "'><img src='img/trash.svg'> </a> </td>" .
+                    "<td> <a href='DAO/Action_ExcluirPalavra.php?id=" . $row['idPalavra'] . "'><img src='img/trash.svg'> </a> </td>" .
                     "<td> <a href='FormularioAlteracao.php?alterarId=" . $row['idPalavra'] .
                     "&alterarPalavra=" . $row['palavra'] .
                     "&alterarDescricao=" . $row['descricao'] .
