@@ -1,8 +1,8 @@
 <?php include('templates/head.php'); ?>
 
 <div class="voltar">
-    <button>
-        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    <button onclick="history.go(-1);">
+        <img src="img/voltar.png" alt="">
     </button>
 </div>
 

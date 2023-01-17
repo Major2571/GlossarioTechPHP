@@ -25,9 +25,15 @@
     }
 
     if( $username == $usernameBD && $senha == $senhaBD ){
-        $_SESSION['autorizacao'] = true;
-        header('Location: ../loginAutorizado.php');
-    } else {
+        if($username == 'admin' && $senha == $senhaBD){
+            $_SESSION['autorizacao'] = true;
+            header('Location: ../loginAutorizadoAdm.php');
+        } else {
+            $_SESSION['autorizacao'] = true;
+            header('Location: ../loginAutorizadoUser.php');
+        }
+    }
+    else {
         $_SESSION['autorizacao'] = false;
         unset($_SESSION['autorizacao']);
         session_destroy();

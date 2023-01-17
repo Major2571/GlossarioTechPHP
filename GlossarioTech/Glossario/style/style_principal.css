@@ -161,12 +161,12 @@ section.search input{
     border-radius: 7px 0 0 7px;
 }
 
+
 .voltar {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     margin:0;
-
 }
 
 .voltar button {
@@ -181,6 +181,7 @@ section.search input{
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .voltar button img {

@@ -9,7 +9,6 @@
     <h1> O que deseja fazer? </h1>
 </div>
     
-    
 <section class="cards-login">
 
 <div class="card-login">
@@ -25,8 +24,8 @@
 </div>
 
 <div class="card-login">
-    <h1> Usuarios </h1>
-    <p> Administre os Ususarios do Sistema </p>
+    <h1> Usuários </h1>
+    <p> Administre os Usuários do Sistema </p>
     <a href="listaUsuarios.php"> Clique aqui </a>
 </div>
 

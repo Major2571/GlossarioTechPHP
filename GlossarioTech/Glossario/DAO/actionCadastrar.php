@@ -3,7 +3,7 @@
     include("BD_Conexao.php");
 
         $user = $_POST['txUsuario'];
-        $senha = $_POST['txSenha'];
+        $senha = sha1($_POST['txSenha']);
         $nome = $_POST['txNome'];
         $sobrenome = $_POST['txSobrenome'];
         $email = $_POST['txEmail'];

@@ -1,7 +1,7 @@
 <?php include('templates/head.php'); ?>
 <div class="voltar">
-    <button>
-        <a href="./loginAutorizado.php"> <img src="img/voltar.png" alt=""> </a>
+    <button onclick="history.go(-1);">
+        <img src="img/voltar.png" alt="">
     </button>
 </div>
 
@@ -36,7 +36,7 @@
 
             include("DAO/BD_Conexao.php");
 
-            
+
 
             try {
                 // -> = usar / acessar método
@@ -47,17 +47,17 @@
 
                     echo "<tr>  
                             <td>" . $row['idPalavra'] . "</td>" .
-                            "<td>" . $row['palavra'] . "</td>" .
-                            "<td>" . $row['descricao'] . "</td>" .
-                            "<td>" . "<img src=' img/imgPalavras/$row[imagem]'>" . "</td>" .
-                            "<td><a href='$row[4]' target='blank' >Saiba Mais</a></td>" .
-                            "<td> <a href='DAO/Action_ExcluirPalavra.php?id=" . $row['idPalavra'] .  "'><img src='img/trash.svg'> </a> </td>" .
-                            "<td> <a href='FormularioAlteracao.php?alterarId=" . $row['idPalavra'] . 
-                                "&alterarPalavra=" . $row['palavra'] .
-                                "&alterarDescricao=" . $row['descricao'] .
-                                "&alterarImagem=" . $row['imagem'] .
-                                "&alterarLink=" . $row['link'] .
-                            "'><img src='img/editar.png'> </a> </td> 
+                        "<td>" . $row['palavra'] . "</td>" .
+                        "<td>" . $row['descricao'] . "</td>" .
+                        "<td>" . "<img src=' img/imgPalavras/$row[imagem]'>" . "</td>" .
+                        "<td><a href='$row[4]' target='blank' >Saiba Mais</a></td>" .
+                        "<td> <a href='DAO/Action_ExcluirPalavra.php?id=" . $row['idPalavra'] .  "'><img src='img/trash.svg'> </a> </td>" .
+                        "<td> <a href='FormularioAlteracao.php?alterarId=" . $row['idPalavra'] .
+                        "&alterarPalavra=" . $row['palavra'] .
+                        "&alterarDescricao=" . $row['descricao'] .
+                        "&alterarImagem=" . $row['imagem'] .
+                        "&alterarLink=" . $row['link'] .
+                        "'><img src='img/editar.png'> </a> </td> 
                           </tr>";
                 }
             } catch (PDOException $e) {
